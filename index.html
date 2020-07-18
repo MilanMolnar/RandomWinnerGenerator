@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WinCheck</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <h1 id="title">The Big Battel</h1>
+    <script src="script.js"></script>
+    <div id="gameField">
+        <div id="playersTable">
+            <!--Dynamic DOM of players-->   
+        </div>
+        <div id="addPlayerWindow">
+            <input type="text" placeholder="Player name" id="playerName">
+           <button id="addbtn" onclick="addPlayer()">+</button>
+        </div>
+        <div id="menuItems">
+            <button id="selectWinnerbtn" onclick="selectWinner()">Battel</button>
+            <button id="deleteListbtn" onclick="deleteList()">Clear</button>   
+        </div>
+        
+    </div>  
+    
+</body>
+</html>
